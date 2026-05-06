@@ -10,6 +10,13 @@
 
 .site-footer,
 .site-footer-credits,
-.site-footer-owner {
+.site-footer-owner,
+footer.site-footer,
+footer {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
 }
