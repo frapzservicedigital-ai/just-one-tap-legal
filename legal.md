@@ -37,6 +37,9 @@ title: Legal — Just One Tap
 <h2>Acceptance & licence</h2>
 <p>By using Just One Tap, you agree to these terms. The app is licensed (not sold) for personal, non-commercial use on your device. Provided as-is.</p>
 
+<h2>Purchase & updates</h2>
+<p>One-time purchase, no subscription. Free app updates are included as long as Just One Tap remains available on the Apple App Store. Refunds are handled by Apple per their App Store refund policy.</p>
+
 <h2>Translation accuracy</h2>
 <p><strong>Translations may contain errors.</strong> You are responsible for verifying any critical translations (legal, medical, financial, technical). We are not liable for any consequences resulting from mistranslations.</p>
 
