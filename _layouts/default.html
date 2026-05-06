@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{{ page.title | default: "Just One Tap" }}</title>
+<link rel="icon" href="{{ '/logo.png' | relative_url }}"/>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#0a0a0e;color:#e8eaf2;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Inter',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+
+.hero{
+  background:
+    radial-gradient(ellipse at 25% 20%, rgba(74,201,255,0.55) 0%, transparent 55%),
+    radial-gradient(ellipse at 75% 80%, rgba(176,96,255,0.5) 0%, transparent 60%),
+    linear-gradient(135deg,#3a7eff 0%,#6a5fff 45%,#9650ff 100%);
+  padding:48px 24px 56px;
+  text-align:center;
+  border-bottom:1px solid rgba(255,255,255,.08)
+}
+.logo{
+  width:84px;height:84px;
+  border-radius:22px;
+  margin:0 auto 18px;
+  display:block;
+  box-shadow:0 18px 48px rgba(0,40,120,.45),0 0 0 1px rgba(255,255,255,.12);
+  background:#fff;
+  overflow:hidden
+}
+.logo img{width:100%;height:100%;display:block;object-fit:cover}
+.brand{
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:-0.5px;
+  color:#fff;
+  margin:0 0 6px;
+  text-shadow:0 2px 12px rgba(0,30,90,.3)
+}
+.tagline{
+  font-size:13px;
+  color:rgba(255,255,255,0.78);
+  letter-spacing:1.6px;
+  text-transform:uppercase;
+  font-weight:600
+}
+
+main{
+  max-width:720px;
+  margin:0 auto;
+  padding:48px 24px 80px
+}
+
+main h1{
+  font-size:32px;
+  font-weight:800;
+  letter-spacing:-0.4px;
+  margin:0 0 8px;
+  color:#fff
+}
+main h1+p{
+  color:rgba(232,234,242,.55);
+  font-size:13px;
+  letter-spacing:0.6px;
+  margin:0 0 32px;
+  text-transform:uppercase;
+  font-weight:600
+}
+main h2{
+  font-size:20px;
+  font-weight:700;
+  margin:36px 0 14px;
+  color:#fff;
+  letter-spacing:-0.2px
+}
+main p, main li{
+  font-size:15.5px;
+  line-height:1.65;
+  color:rgba(232,234,242,.82)
+}
+main ul, main ol{
+  padding-left:22px;
+  margin:0 0 16px
+}
+main li{margin:6px 0}
+main strong{color:#fff;font-weight:700}
+main a{color:#7ec3ff;text-decoration:none;border-bottom:1px solid rgba(126,195,255,.3)}
+main a:hover{border-bottom-color:rgba(126,195,255,.7)}
+main hr{
+  border:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);
+  margin:32px 0
+}
+main small{
+  display:block;
+  margin-top:8px;
+  font-size:11px;
+  line-height:1.6;
+  color:rgba(232,234,242,.42)
+}
+main small strong{color:rgba(255,255,255,.65);font-weight:600}
+
+@media (max-width:540px){
+  .hero{padding:36px 18px 42px}
+  .brand{font-size:26px}
+  main{padding:32px 18px 60px}
+  main h1{font-size:26px}
+  main h2{font-size:18px}
+  main p, main li{font-size:14.5px}
+}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="logo"><img src="{{ '/logo.png' | relative_url }}" alt="Just One Tap"/></div>
+  <h1 class="brand">Just One Tap</h1>
+  <div class="tagline">Translate · Yours Forever</div>
+</div>
+<main>
+{{ content }}
+</main>
+</body>
+</html>

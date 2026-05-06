@@ -1,6 +1,11 @@
-# Privacy Policy — Just One Tap
+---
+layout: default
+title: Privacy Policy — Just One Tap
+---
 
-**Last updated: May 6, 2026**
+# Privacy Policy
+
+Last updated: May 6, 2026
 
 ---
 

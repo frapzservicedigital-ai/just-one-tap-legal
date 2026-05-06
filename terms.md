@@ -1,6 +1,11 @@
-# Terms of Service — Just One Tap
+---
+layout: default
+title: Terms of Service — Just One Tap
+---
 
-**Last updated: May 4, 2026**
+# Terms of Service
+
+Last updated: May 6, 2026
 
 ## 1. Acceptance
 
