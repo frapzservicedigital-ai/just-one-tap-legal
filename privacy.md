@@ -30,7 +30,7 @@ title: Privacy Policy — Just One Tap
 <p>We may update this Privacy Policy. Changes will be posted with a new "Last updated" date.</p>
 
 <h2>Contact</h2>
-<p><a href="mailto:frapzservicedigital@gmail.com">frapzservicedigital@gmail.com</a></p>
+<p>For privacy questions, please use the support link on the Just One Tap App Store page.</p>
 
 <small><strong>Third-party services</strong> — Apple iOS frameworks (Speech Recognition, AVSpeechSynthesizer, Vision) process on-device under Apple's privacy policy. Google ML Kit (Translate, Text Recognition) processes on-device. Expo Updates pushes small JavaScript updates to the app; no personal data collected.</small>
 

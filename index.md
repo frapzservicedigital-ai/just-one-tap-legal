@@ -3,11 +3,14 @@ layout: default
 title: Just One Tap — Legal
 ---
 
-## Legal documents
+<div class="block">
 
-- [Privacy Policy](./privacy.html)
-- [Terms of Service](./terms.html)
+# Legal
 
----
+<p class="meta">Just One Tap · iOS app</p>
 
-Contact: [frapzservicedigital@gmail.com](mailto:frapzservicedigital@gmail.com)
+<p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a></p>
+
+<p>For support, please use the support link on the Just One Tap App Store page.</p>
+
+</div>

@@ -38,7 +38,7 @@ title: Terms of Service — Just One Tap
 <p>We may update these Terms from time to time. Continued use of the app after changes constitutes acceptance.</p>
 
 <h2>Contact</h2>
-<p><a href="mailto:frapzservicedigital@gmail.com">frapzservicedigital@gmail.com</a></p>
+<p>For support, please use the support link on the Just One Tap App Store page.</p>
 
 <small>Just One Tap is distributed via the Apple App Store and is subject to Apple's standard end-user license agreement (EULA).</small>
 
