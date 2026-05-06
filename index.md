@@ -9,7 +9,7 @@ title: Just One Tap — Legal
 
 <p class="meta">Just One Tap · iOS app</p>
 
-<p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a></p>
+<p><a href="./legal.html#privacy">Privacy Policy</a> · <a href="./legal.html#terms">Terms of Service</a></p>
 
 <p>For support, please use the support link on the Just One Tap App Store page.</p>
 
