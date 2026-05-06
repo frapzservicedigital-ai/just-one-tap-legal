@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header > .btn,
+.page-header a.btn {
+  display: none !important;
+}
