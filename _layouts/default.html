@@ -107,6 +107,49 @@ main small{
 }
 main small strong{color:rgba(255,255,255,.55);font-weight:600}
 
+.support-form{
+  display:flex;flex-direction:column;gap:12px;
+  margin-top:18px;text-align:left
+}
+.support-form input,
+.support-form textarea{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:10px;
+  padding:12px 14px;
+  color:#fff;
+  font-size:14px;
+  font-family:inherit;
+  outline:none;
+  transition:border-color .2s ease,background .2s ease
+}
+.support-form input::placeholder,
+.support-form textarea::placeholder{color:rgba(232,234,242,.4)}
+.support-form input:focus,
+.support-form textarea:focus{
+  background:rgba(255,255,255,0.08);
+  border-color:rgba(126,195,255,.5)
+}
+.support-form textarea{resize:vertical;min-height:90px}
+.support-form button{
+  background:linear-gradient(135deg,#3a7eff 0%,#6a5fff 100%);
+  border:none;
+  border-radius:10px;
+  padding:13px 20px;
+  color:#fff;
+  font-size:14.5px;
+  font-weight:700;
+  letter-spacing:0.3px;
+  cursor:pointer;
+  transition:transform .15s ease,box-shadow .25s ease;
+  margin-top:4px
+}
+.support-form button:hover{
+  box-shadow:0 8px 24px rgba(74,143,255,.35);
+  transform:translateY(-1px)
+}
+.support-form button:active{transform:translateY(0)}
+
 @media (max-width:540px){
   .hero{padding:36px 18px 42px}
   .brand{font-size:26px}

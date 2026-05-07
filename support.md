@@ -35,7 +35,13 @@ title: Support — Just One Tap
 <h2>Refunds & purchase</h2>
 <p>Refunds are handled directly by Apple per their App Store refund policy. To request a refund, visit reportaproblem.apple.com.</p>
 
-<h2>Contact</h2>
-<p>For additional support questions, leave feedback as a review on the Just One Tap App Store page. Reviews are monitored.</p>
+<h2>Contact us</h2>
+<p>For additional support questions, send a message and we'll reply by email.</p>
+
+<form action="https://formspree.io/f/mrejlwdz" method="POST" class="support-form">
+  <input type="email" name="email" placeholder="Your email" required/>
+  <textarea name="message" placeholder="Your question or issue..." rows="5" required></textarea>
+  <button type="submit">Send message</button>
+</form>
 
 </div>
