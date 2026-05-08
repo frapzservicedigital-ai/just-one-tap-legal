@@ -29,6 +29,16 @@ title: Support — Just One Tap
 <h2>Camera does not detect text</h2>
 <p>Hold the camera steady, ensure good lighting, and that the text is in the source language selected. Tap the round button to capture.</p>
 
+<h2>Technology — how it works</h2>
+<p>Just One Tap runs entirely on your iPhone using Apple frameworks and Google's on-device ML Kit. Nothing goes to a remote server.</p>
+<ul>
+<li><strong>Camera OCR</strong> — Apple Vision Framework (VNRecognizeTextRequest)</li>
+<li><strong>Voice recognition</strong> — iOS Speech Recognition (SFSpeechRecognizer, on-device only)</li>
+<li><strong>Text-to-speech</strong> — Apple AVSpeechSynthesizer</li>
+<li><strong>Translation</strong> — Google ML Kit Translate, on-device (Apple Neural Engine accelerated)</li>
+</ul>
+<p>No cloud servers, no data uploaded, no analytics. Internet is only used the first time you use a language pair to download a small offline model (~30 MB).</p>
+
 <h2>Privacy</h2>
 <p>Just One Tap collects no data. Voice, photos, and text never leave your iPhone. See our <a href="./legal.html#privacy">Privacy Policy</a>.</p>
 
